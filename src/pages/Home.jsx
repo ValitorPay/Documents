@@ -14,13 +14,9 @@ export default function Home() {
     <>
       <Element name={"Home"} id="home">
         <NavBar />
-        <Hero />
       </Element>
       <main>
         <AboutMe />
-        <Skills />
-        <Projects />
-        <Contact />
       </main>
       <BackToTop home={"Home"} />
       <Footer />
