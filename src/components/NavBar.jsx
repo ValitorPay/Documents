@@ -49,50 +49,7 @@ export default function NavBar() {
                   Home
                 </Link>
               </Nav.Item>
-              <Nav.Item>
-                <Link
-                  to={"About"}
-                  spy={true}
-                  activeClass="active"
-                  className="nav-link"
-                  onClick={closeExpanded}
-                >
-                  About Me
-                </Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Link
-                  to={"Skills"}
-                  spy={true}
-                  activeClass="active"
-                  className="nav-link"
-                  onClick={closeExpanded}
-                >
-                  Skills
-                </Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Link
-                  to={"Projects"}
-                  spy={true}
-                  activeClass="active"
-                  className="nav-link"
-                  onClick={closeExpanded}
-                >
-                  Projects
-                </Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Link
-                  to={"Contact"}
-                  spy={true}
-                  activeClass="active"
-                  className="nav-link"
-                  onClick={closeExpanded}
-                >
-                  Contact
-                </Link>
-              </Nav.Item>
+              
             </Nav>
             <Nav>
               <ToggleSwitch />
